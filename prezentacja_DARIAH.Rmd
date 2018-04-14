@@ -1,6 +1,7 @@
 ---
-title: Cyfryzacja historii? Oto jest wyzwanie!
-author: Magdalena Król, Joanna Byszuk, Maciej Eder
+title: "Cyfryzacja historii? Oto jest wyzwanie!"
+author: 
+  Magdalena Król, Joanna Byszuk, Maciej Eder
 date: 19 IV 2018
 output: 
   rmdshower::shower_presentation:
@@ -508,14 +509,14 @@ p
 
 
 
-## Handwritten Document Recognition (HDR)
+## Handwritten Text Recognition (HTR)
 
 ![title](img/fdigh-05-00004-g003.jpg){width=800px}
 
 
 
 
-## Atrybucyjna skuteczność OCR vs. HDR
+## Atrybucyjna skuteczność OCR vs. HTR
 
 ![title](img/fdigh-05-00004-g012.jpg){width=800px}
 
@@ -528,6 +529,9 @@ p
 
 
 
+## Topic modeling
+
+* może by dodać?
 
 
 
