@@ -201,100 +201,9 @@ Dariah Theme 2017 ‘Public Cultural Heritage’, 19 kwietnia 2018
 
 
 
-## A. Fredro, _Trzy po trzy_ (1846)
-
-``` xml
-<tok>
-<orth>Ośmnastego</orth>
-<lex><base>ośmnasty</base><ctag>adj:sg:gen:m1:pos</ctag></lex>
-<lex><base>ośmnasty</base><ctag>adj:sg:gen:m2:pos</ctag></lex>
-<lex disamb="1"><base>ośmnasty</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
-<lex><base>ośmnasty</base><ctag>adj:sg:gen:n:pos</ctag></lex>
-<lex><base>ośmnasty</base><ctag>adj:sg:acc:m1:pos</ctag></lex>
-<lex><base>ośmnasty</base><ctag>adj:sg:acc:m2:pos</ctag></lex>
-</tok>
-<tok>
-<orth>lutego</orth>
-<lex disamb="1"><base>luty</base><ctag>subst:sg:gen:m3</ctag></lex>
-</tok>
-<tok>
-<orth>roku</orth>
-<lex disamb="1"><base>rok</base><ctag>subst:sg:gen:m3</ctag></lex>
-<lex><base>rok</base><ctag>subst:sg:loc:m3</ctag></lex>
-<lex><base>rok</base><ctag>subst:sg:voc:m3</ctag></lex>
-</tok>
-<tok>
-<orth>1814</orth>
-<lex disamb="1"><base>1814</base><ctag>tnum:integer</ctag></lex>
-</tok>
-<tok>
-<orth>,</orth>
-<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
-</tok>
-<tok>
-<orth>jechał</orth>
-<lex disamb="1"><base>jechać</base><ctag>praet:sg:m1:imperf</ctag></lex>
-<lex><base>jechać</base><ctag>praet:sg:m2:imperf</ctag></lex>
-<lex><base>jechać</base><ctag>praet:sg:m3:imperf</ctag></lex>
-</tok>
-<tok>
-<orth>na</orth>
-<lex disamb="1"><base>na</base><ctag>prep:loc</ctag></lex>
-<lex><base>na</base><ctag>prep:acc</ctag></lex>
-</tok>
-<tok>
-<orth>białym</orth>
-<lex><base>biały</base><ctag>adj:sg:inst:m1:pos</ctag></lex>
-<lex><base>biały</base><ctag>adj:sg:inst:m2:pos</ctag></lex>
-<lex><base>biały</base><ctag>adj:sg:inst:m3:pos</ctag></lex>
-<lex><base>biały</base><ctag>adj:sg:inst:n:pos</ctag></lex>
-<lex><base>biały</base><ctag>adj:sg:loc:m1:pos</ctag></lex>
-<lex disamb="1"><base>biały</base><ctag>adj:sg:loc:m2:pos</ctag></lex>
-<lex><base>biały</base><ctag>adj:sg:loc:m3:pos</ctag></lex>
-<lex><base>biały</base><ctag>adj:sg:loc:n:pos</ctag></lex>
-<lex><base>biały</base><ctag>adj:pl:dat:m1:pos</ctag></lex>
-<lex><base>biały</base><ctag>adj:pl:dat:m2:pos</ctag></lex>
-<lex><base>biały</base><ctag>adj:pl:dat:m3:pos</ctag></lex>
-<lex><base>biały</base><ctag>adj:pl:dat:f:pos</ctag></lex>
-<lex><base>biały</base><ctag>adj:pl:dat:n:pos</ctag></lex>
-</tok>
-<tok>
-<orth>koniu</orth>
-<lex disamb="1"><base>koń</base><ctag>subst:sg:loc:m2</ctag></lex>
-<lex><base>koń</base><ctag>subst:sg:voc:m2</ctag></lex>
-</tok>
-```
 
 
 
-
-
-
-## _Historyje rzymskie_ (1543)
-
-```
-Był jeden rycerz u niektórego króla, który barzo był króla rozgniewał. 
-I posłał ku królowi rycerze, aby mu gniew przeprosili. Tedy oni 
-rycerze za nim prosząc, ledwy mu łaskę uprosili tym obyczajem, 
-aby ku dworu królewskiemu zasię przyszedł jezno i pieszy a aby 
-z sobą przywiódł wiernego  przyjaciela, i też krotofilnika, 
-i nieprzyjaciela niewiernego. A odszedszy jednacze powiedzieli 
-to rycerzowi. Usłyszawszy to, rycerz barzo sie zasmucił, jako by 
-to uczynić miał. I przydało sie czasu tego, że był jednego 
-pielgrzyma na noc przyjął, i rzekł tajemnie ku żonie swej: Wiem, 
-że pielgrzymowie miewają z sobą pieniądze, a przetoż jeźli to 
-chcesz taić, tedy ja zabiję tego pielgrzyma a pieniądze jego 
-pobierzem. A ona to taić obiecała. Gdyż tedy wszytcy spali, 
-wstawszy on rycerz przed świtanim obudził onego pielgrzyma i kazał 
-mu w drogę iść, a zabiwszy cielca, zrąbał go w sztuki i włożył 
-w wór. Potym, obudziwszy swą żonę, ukazał jej wór, mówiąc, żem 
-tylko głowę, nogi a ręce włożył w ten wór, a ciałom pochował 
-w stajni, ale ten wór w tym kącie pogrzebmy. A pogrzebszy on wór, 
-ukazał jej nieco pieniędzy swych, mieniąc, żeby je od tego 
-to pielgrzyma wziął. A gdyż był dzień, aby stanął przed królem, 
-tedy wziąwszy z sobą na prawą stronę psa, a dziecię na rękę, 
-a żonę na lewą stronę, szedł na zamek. 
-```
 
 
 
@@ -320,45 +229,6 @@ p
 
 
 # Po co komu korpus?
-
-
-
-
-
-
-
-
-
-## Imiesłów uprzedni
-
-
-* imiesłów uprzedni zanika w polszczyźnie
-* nie trzeba metod kwantytatywnych, by to zauważyć
-* ale jaka jest **dynamika** tej zmiany?
-
-```
-Potym, obudziwszy swą żonę, ukazał jej wór, mówiąc, żem 
-tylko głowę, nogi a ręce włożył w ten wór, a ciałom pochował 
-w stajni, ale ten wór w tym kącie pogrzebmy.
-```
-
-
-
-## Imiesłów uprzedni
-
-``` {r fig-2, echo = FALSE, message = FALSE}
-wynik = y$imieslow / y$dlugosc
-sredni.wynik = c()
-for(i in unique(y$rok)) {
-   sredni.wynik = c( sredni.wynik, mean(wynik[y$rok == i]) )
-}
-p = plot_ly(x = unique(y$rok), y = sredni.wynik, name = 'imiesłów uprzedni', type = 'scatter', mode = 'markers') %>%
-       add_trace(y = lowess(sredni.wynik, f=1/2)$y, name = 'imiesłów uprzedni', mode = 'lines', line = list(width = 3)) %>%
-       layout(
-           xaxis = list(range = c(1350, 2050)),
-           yaxis = list(range = c(-0.001, 0.01), zeroline = FALSE))
-p
-```
 
 
 
@@ -428,23 +298,6 @@ p
 
 
 
-## _barzo_ > _bardzo_
-
-``` {r fig-12, echo=FALSE, message=FALSE}
-model = glm(x$bardzo ~ dates, family=quasibinomial(logit))
-r2 = round(NagelkerkeR2(model)$R2, 3)
-annotation <- list(x = 2050, y = 0.1, text = paste("<i>R</i><sup>2</sup> = ", r2), showarrow = F)
-p = plot_ly(x = dates, y = x$bardzo, name = 'barzo > bardzo', type = 'scatter', mode = 'markers') %>%
-       add_trace(y = model$fitted, name = 'barzo > bardzo', mode = 'lines', line = list(color = my.p.red, width = 3)) %>%
-       layout(
-           xaxis = list(range = c(1350, 2050)),
-           yaxis = list(range = c(-0.1, 1.1), zeroline = FALSE),
-           annotations = annotation)
-p
-```
-
-
-
 
 
 
@@ -493,11 +346,86 @@ p
 
 ## Pozyskiwanie dokumentów
 
-* Ogromne zasoby Polony
+* **ogromne** zasoby Polony
 * zbiory walidacyjne (słowniki) IJP PAN
-* Bibliotheque National Francaise
-* . . .
-* biblioteki we Lwowie, Kijowie, Berlinie, Wiedniu, Londynie i Paryżu
+* rekonesans Ministerstwa Kultury i Dziedzictwa Narodowego:
+    * biblioteki we Lwowie, Kijowie, Berlinie, Wiedniu, Londynie i Paryżu
+* istniejące zasoby tekstowe o różnym stopniu wiarygodności:
+    * Narodowy Fotokorpus Języka Polskiego
+    * wirtualna biblioteka Uniwersytetu Gdańskiego
+    * wikiźródła
+* istotna **wysoka jakość** tekstów, bo korpus będzie anotowany!
+
+
+
+
+
+
+## A. Fredro, _Trzy po trzy_ (1846)
+
+``` xml
+<tok>
+<orth>Ośmnastego</orth>
+<lex><base>ośmnasty</base><ctag>adj:sg:gen:m1:pos</ctag></lex>
+<lex><base>ośmnasty</base><ctag>adj:sg:gen:m2:pos</ctag></lex>
+<lex disamb="1"><base>ośmnasty</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
+<lex><base>ośmnasty</base><ctag>adj:sg:gen:n:pos</ctag></lex>
+<lex><base>ośmnasty</base><ctag>adj:sg:acc:m1:pos</ctag></lex>
+<lex><base>ośmnasty</base><ctag>adj:sg:acc:m2:pos</ctag></lex>
+</tok>
+<tok>
+<orth>lutego</orth>
+<lex disamb="1"><base>luty</base><ctag>subst:sg:gen:m3</ctag></lex>
+</tok>
+<tok>
+<orth>roku</orth>
+<lex disamb="1"><base>rok</base><ctag>subst:sg:gen:m3</ctag></lex>
+<lex><base>rok</base><ctag>subst:sg:loc:m3</ctag></lex>
+<lex><base>rok</base><ctag>subst:sg:voc:m3</ctag></lex>
+</tok>
+<tok>
+<orth>1814</orth>
+<lex disamb="1"><base>1814</base><ctag>tnum:integer</ctag></lex>
+</tok>
+<tok>
+<orth>,</orth>
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>jechał</orth>
+<lex disamb="1"><base>jechać</base><ctag>praet:sg:m1:imperf</ctag></lex>
+<lex><base>jechać</base><ctag>praet:sg:m2:imperf</ctag></lex>
+<lex><base>jechać</base><ctag>praet:sg:m3:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>na</orth>
+<lex disamb="1"><base>na</base><ctag>prep:loc</ctag></lex>
+<lex><base>na</base><ctag>prep:acc</ctag></lex>
+</tok>
+<tok>
+<orth>białym</orth>
+<lex><base>biały</base><ctag>adj:sg:inst:m1:pos</ctag></lex>
+<lex><base>biały</base><ctag>adj:sg:inst:m2:pos</ctag></lex>
+<lex><base>biały</base><ctag>adj:sg:inst:m3:pos</ctag></lex>
+<lex><base>biały</base><ctag>adj:sg:inst:n:pos</ctag></lex>
+<lex><base>biały</base><ctag>adj:sg:loc:m1:pos</ctag></lex>
+<lex disamb="1"><base>biały</base><ctag>adj:sg:loc:m2:pos</ctag></lex>
+<lex><base>biały</base><ctag>adj:sg:loc:m3:pos</ctag></lex>
+<lex><base>biały</base><ctag>adj:sg:loc:n:pos</ctag></lex>
+<lex><base>biały</base><ctag>adj:pl:dat:m1:pos</ctag></lex>
+<lex><base>biały</base><ctag>adj:pl:dat:m2:pos</ctag></lex>
+<lex><base>biały</base><ctag>adj:pl:dat:m3:pos</ctag></lex>
+<lex><base>biały</base><ctag>adj:pl:dat:f:pos</ctag></lex>
+<lex><base>biały</base><ctag>adj:pl:dat:n:pos</ctag></lex>
+</tok>
+<tok>
+<orth>koniu</orth>
+<lex disamb="1"><base>koń</base><ctag>subst:sg:loc:m2</ctag></lex>
+<lex><base>koń</base><ctag>subst:sg:voc:m2</ctag></lex>
+</tok>
+```
+
+
 
 
 ## Optical Character Recognition
@@ -510,9 +438,17 @@ p
 
 
 
+
+
+
 ## Handwritten Text Recognition (HTR)
 
 ![title](img/fdigh-05-00004-g003.jpg){width=800px}
+
+
+
+
+
 
 
 
