@@ -428,57 +428,14 @@ p
 
 
 
-## Optical Character Recognition
+## Optical Character Recognition (OCR)
 
-* Teksty przykładowe z Polony -> ciekawe problemy
-* 10 próbek różnej długości i różnego pochodzenia ()
-* 
-
-
-
-
-
-
-
-
-## Handwritten Text Recognition (HTR)
-
-![title](img/fdigh-05-00004-g003.jpg){width=800px}
-
-
-
-
-
-
-
-
-
-## Atrybucyjna skuteczność OCR vs. HTR
-
-![title](img/fdigh-05-00004-g012.jpg){width=800px}
-
-
-
-
-## Atrybucyjna skuteczność “brudnego” OCR
-
-![title](img/damaged_german.png){width=500px}
-
-
-
-
-
-
-## Konkluzje
-
-* Fajnie, że bilioteki robią skany
-* ale nawet do atrybucji są niedostateczne
-* Teksty z XIX trzeba po prostu przepisać (łatwe do przepisania)
-* za granicą TTR już prawie tak dobry jak OCR
-
-
-a = c(6.5, 82.5, 38.4, 13.6, 7, 5.35, 11.7, 6.8, 4.5, 43)
-plot(sort(a), ylim=c(0,100), type="h", lwd=10)
+* konwersja obrazu na tekst
+* słabość techniki to duża liczba błędów
+* szybki test na danych diachronicznych:
+    * teksty przykładowe z Polony
+    * 10 próbek różnej długości; różne style funkcjonalne
+    * skuteczność niesatysfakcjonująca: od 7% do 85%
 
 
 
@@ -510,6 +467,54 @@ onę uczyć zaleca. Lecz co pierw szy P isarz iey , na trzy dzieląc klassy , w 
 trzech osobnych w ydał x iążcczkacb,v
 ```
 
+
+
+
+
+## Handwritten Text Recognition (HTR)
+
+![title](img/fdigh-05-00004-g003.jpg){width=800px}
+
+
+
+
+
+
+
+## Atrybucyjna skuteczność OCR vs. HTR
+
+![title](img/fdigh-05-00004-g012.jpg){width=800px}
+
+
+
+
+
+
+
+
+## Konkluzje
+
+* W Polsce mamy skany bardzo dobrej jakości!
+    * Polona etc.
+* w IJP PAN są duże zasoby już ucyfrowione
+* mamy doświadczenie w OCR i HTR
+* prężne środowisko DH w Krakowie (i nie tylko!)
+* potrzeba korpusu diachronicznego coraz częściej artykułowana
+* zatem: do roboty!
+
+
+
+
+# Dziękujemy za uwagę!
+
+
+
+
+
+
+## Atrybucyjna skuteczność “brudnego” OCR
+
+![title](img/damaged_german.png){width=500px}
 
 
 
