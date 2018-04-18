@@ -49,23 +49,10 @@ opts_chunk$set(cache=TRUE)
 
 
 
-```{r notes, include=FALSE}
+```{r notes, include = FALSE}
 # this is the place to put any text that won't appear on the slide
 
 my.dummy.variable = "
-
-  revealjs::revealjs_presentation:
-    theme: white
-    highlight: pygments
-    center: true
-    smart: true
-    transition: convex
-    self_contained: false
-    fig_width: 7
-    fig_height: 5
-    fig_caption: false
-    incremental: false
-    reveal_plugins: notes
 
 "
 
@@ -105,7 +92,7 @@ Dariah Theme 2017 ‘Public Cultural Heritage’, 19 kwietnia 2018
 
 
 
-## Słownik vs. korpus
+## Diachronia: słownik vs. korpus
 
 * słownik to antologia szczegółowych mikroanaliz
 * siłą rzeczy przykłada nadmierną wagę do zjawisk rzadkich
@@ -187,25 +174,6 @@ Dariah Theme 2017 ‘Public Cultural Heritage’, 19 kwietnia 2018
 
 
 
-## Korpus (_in statu nascendi..._)
-
-* obejmuje lata 1380--2010
-* wszystkie podokresy są w nim reprezentowane, choć w różnym stopniu
-* 1021 tekstów
-* 25 mln słów (ponad 9 mln słów do roku 1850)
-* na razie oportunistyczny
-* na razie nie ma anotacji morfosyntaktycznej (trudniej badać gramatykę)
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Korpus: pokrycie diachroniczne
@@ -279,7 +247,7 @@ $$p(t) = \frac{1}{1 + a \times e^{-rt}}$$
 
 ## _więtszy_ > _większy_
 
-``` {r fig-10, echo=FALSE, message=FALSE}
+``` {r fig-10, echo = FALSE, message = FALSE}
 model = glm(x$wiekszy ~ dates, family=quasibinomial(logit))
 r2 = round(NagelkerkeR2(model)$R2, 3)
 annotation <- list(x = 2050, y = 0.1, text = paste("<i>R</i><sup>2</sup> = ", r2), showarrow = F)
@@ -304,7 +272,7 @@ p
 
 ## współwystępowanie 5 zmian
 
-``` {r fig-20, echo=FALSE, message=FALSE}
+``` {r fig-20, echo = FALSE, message = FALSE}
 model.wiekszy = glm(x$wiekszy ~ dates, family=quasibinomial(logit))
 model.bysmy_bym = glm(x$bysmy_bym ~ dates, family=quasibinomial(logit))
 model.bardzo = glm(x$bardzo ~ dates, family=quasibinomial(logit))
@@ -334,10 +302,10 @@ p
 
 
 
+
 ## Korpus diachroniczny: synergia
 
 ![title](img/loga.png){.cover}
-
 
 
 
@@ -365,63 +333,63 @@ p
 
 ``` xml
 <tok>
-<orth>Ośmnastego</orth>
-<lex><base>ośmnasty</base><ctag>adj:sg:gen:m1:pos</ctag></lex>
-<lex><base>ośmnasty</base><ctag>adj:sg:gen:m2:pos</ctag></lex>
-<lex disamb="1"><base>ośmnasty</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
-<lex><base>ośmnasty</base><ctag>adj:sg:gen:n:pos</ctag></lex>
-<lex><base>ośmnasty</base><ctag>adj:sg:acc:m1:pos</ctag></lex>
-<lex><base>ośmnasty</base><ctag>adj:sg:acc:m2:pos</ctag></lex>
+  <orth>Ośmnastego</orth>
+  <lex><base>ośmnasty</base><ctag>adj:sg:gen:m1:pos</ctag></lex>
+  <lex><base>ośmnasty</base><ctag>adj:sg:gen:m2:pos</ctag></lex>
+  <lex disamb="1"><base>ośmnasty</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
+  <lex><base>ośmnasty</base><ctag>adj:sg:gen:n:pos</ctag></lex>
+  <lex><base>ośmnasty</base><ctag>adj:sg:acc:m1:pos</ctag></lex>
+  <lex><base>ośmnasty</base><ctag>adj:sg:acc:m2:pos</ctag></lex>
 </tok>
 <tok>
-<orth>lutego</orth>
-<lex disamb="1"><base>luty</base><ctag>subst:sg:gen:m3</ctag></lex>
+  <orth>lutego</orth>
+  <lex disamb="1"><base>luty</base><ctag>subst:sg:gen:m3</ctag></lex>
 </tok>
 <tok>
-<orth>roku</orth>
-<lex disamb="1"><base>rok</base><ctag>subst:sg:gen:m3</ctag></lex>
-<lex><base>rok</base><ctag>subst:sg:loc:m3</ctag></lex>
-<lex><base>rok</base><ctag>subst:sg:voc:m3</ctag></lex>
+  <orth>roku</orth>
+  <lex disamb="1"><base>rok</base><ctag>subst:sg:gen:m3</ctag></lex>
+  <lex><base>rok</base><ctag>subst:sg:loc:m3</ctag></lex>
+  <lex><base>rok</base><ctag>subst:sg:voc:m3</ctag></lex>
 </tok>
 <tok>
-<orth>1814</orth>
-<lex disamb="1"><base>1814</base><ctag>tnum:integer</ctag></lex>
+  <orth>1814</orth>
+  <lex disamb="1"><base>1814</base><ctag>tnum:integer</ctag></lex>
 </tok>
 <tok>
-<orth>,</orth>
-<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+  <orth>,</orth>
+  <lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
 </tok>
 <tok>
 <orth>jechał</orth>
-<lex disamb="1"><base>jechać</base><ctag>praet:sg:m1:imperf</ctag></lex>
-<lex><base>jechać</base><ctag>praet:sg:m2:imperf</ctag></lex>
-<lex><base>jechać</base><ctag>praet:sg:m3:imperf</ctag></lex>
+  <lex disamb="1"><base>jechać</base><ctag>praet:sg:m1:imperf</ctag></lex>
+  <lex><base>jechać</base><ctag>praet:sg:m2:imperf</ctag></lex>
+  <lex><base>jechać</base><ctag>praet:sg:m3:imperf</ctag></lex>
 </tok>
 <tok>
-<orth>na</orth>
-<lex disamb="1"><base>na</base><ctag>prep:loc</ctag></lex>
-<lex><base>na</base><ctag>prep:acc</ctag></lex>
+  <orth>na</orth>
+  <lex disamb="1"><base>na</base><ctag>prep:loc</ctag></lex>
+  <lex><base>na</base><ctag>prep:acc</ctag></lex>
 </tok>
 <tok>
-<orth>białym</orth>
-<lex><base>biały</base><ctag>adj:sg:inst:m1:pos</ctag></lex>
-<lex><base>biały</base><ctag>adj:sg:inst:m2:pos</ctag></lex>
-<lex><base>biały</base><ctag>adj:sg:inst:m3:pos</ctag></lex>
-<lex><base>biały</base><ctag>adj:sg:inst:n:pos</ctag></lex>
-<lex><base>biały</base><ctag>adj:sg:loc:m1:pos</ctag></lex>
-<lex disamb="1"><base>biały</base><ctag>adj:sg:loc:m2:pos</ctag></lex>
-<lex><base>biały</base><ctag>adj:sg:loc:m3:pos</ctag></lex>
-<lex><base>biały</base><ctag>adj:sg:loc:n:pos</ctag></lex>
-<lex><base>biały</base><ctag>adj:pl:dat:m1:pos</ctag></lex>
-<lex><base>biały</base><ctag>adj:pl:dat:m2:pos</ctag></lex>
-<lex><base>biały</base><ctag>adj:pl:dat:m3:pos</ctag></lex>
-<lex><base>biały</base><ctag>adj:pl:dat:f:pos</ctag></lex>
-<lex><base>biały</base><ctag>adj:pl:dat:n:pos</ctag></lex>
+  <orth>białym</orth>
+  <lex><base>biały</base><ctag>adj:sg:inst:m1:pos</ctag></lex>
+  <lex><base>biały</base><ctag>adj:sg:inst:m2:pos</ctag></lex>
+  <lex><base>biały</base><ctag>adj:sg:inst:m3:pos</ctag></lex>
+  <lex><base>biały</base><ctag>adj:sg:inst:n:pos</ctag></lex>
+  <lex><base>biały</base><ctag>adj:sg:loc:m1:pos</ctag></lex>
+  <lex disamb="1"><base>biały</base><ctag>adj:sg:loc:m2:pos</ctag></lex>
+  <lex><base>biały</base><ctag>adj:sg:loc:m3:pos</ctag></lex>
+  <lex><base>biały</base><ctag>adj:sg:loc:n:pos</ctag></lex>
+  <lex><base>biały</base><ctag>adj:pl:dat:m1:pos</ctag></lex>
+  <lex><base>biały</base><ctag>adj:pl:dat:m2:pos</ctag></lex>
+  <lex><base>biały</base><ctag>adj:pl:dat:m3:pos</ctag></lex>
+  <lex><base>biały</base><ctag>adj:pl:dat:f:pos</ctag></lex>
+  <lex><base>biały</base><ctag>adj:pl:dat:n:pos</ctag></lex>
 </tok>
 <tok>
-<orth>koniu</orth>
-<lex disamb="1"><base>koń</base><ctag>subst:sg:loc:m2</ctag></lex>
-<lex><base>koń</base><ctag>subst:sg:voc:m2</ctag></lex>
+  <orth>koniu</orth>
+  <lex disamb="1"><base>koń</base><ctag>subst:sg:loc:m2</ctag></lex>
+  <lex><base>koń</base><ctag>subst:sg:voc:m2</ctag></lex>
 </tok>
 ```
 
@@ -435,7 +403,7 @@ p
 * szybki test na danych diachronicznych:
     * teksty przykładowe z Polony
     * 10 próbek różnej długości; różne style funkcjonalne
-    * skuteczność niesatysfakcjonująca: od 7% do 85%
+    * skuteczność niesatysfakcjonująca: **od 7% do 85%**
 
 
 
@@ -445,7 +413,7 @@ p
 
 
 ``` 
-30001002731133Z a c h ę c o n y dobrem przyięciem G ram m aty k i llo ssy y sk iey , k tó rey drugie w y danie w ro k u 181 i nastąpiło; dla przysługi W spótzioinkóm , spieszę się z ofiarow aniem Polskiey, w tym zamiarze ,
+Z a c h ę c o n y dobrem przyięciem G ram m aty k i llo ssy y sk iey , k tó rey drugie w y danie w ro k u 181 i nastąpiło; dla przysługi W spótzioinkóm , spieszę się z ofiarow aniem Polskiey, w tym zamiarze ,
 ażeby ona do popraw y błędnego dziś
 i ( śmiało rzec m ożna) nadto przesadzon ego, a ze zwyczaiem praw dziw ie Polskim niezgodnego pisania i m ów ienia
 sp o so b u , w czem kolw iek dopomódz
@@ -494,9 +462,9 @@ trzech osobnych w ydał x iążcczkacb,v
 
 ## Konkluzje
 
-* W Polsce mamy skany bardzo dobrej jakości!
+* w Polsce mamy już skany bardzo dobrej jakości!
     * Polona etc.
-* w IJP PAN są duże zasoby już ucyfrowione
+* duże zasoby są już ucyfrowione
 * mamy doświadczenie w OCR i HTR
 * prężne środowisko DH w Krakowie (i nie tylko!)
 * potrzeba korpusu diachronicznego coraz częściej artykułowana
