@@ -502,8 +502,9 @@ p
 
 ## Optical Character Recognition
 
-* . . . 
-* . . . 
+* Teksty przykładowe z Polony -> ciekawe problemy
+* 10 próbek różnej długości i różnego pochodzenia ()
+* 
 
 
 
@@ -534,14 +535,45 @@ p
 
 ## Konkluzje
 
-* . . . . . . . 
-* . . . 
+* Fajnie, że bilioteki robią skany
+* ale nawet do atrybucji są niedostateczne
+* Teksty z XIX trzeba po prostu przepisać (łatwe do przepisania)
+* za granicą TTR już prawie tak dobry jak OCR
+
+
+a = c(6.5, 82.5, 38.4, 13.6, 7, 5.35, 11.7, 6.8, 4.5, 43)
+plot(sort(a), ylim=c(0,100), type="h", lwd=10)
 
 
 
 
 
-## Podziękowanie
+## Onufry Kopczynski, _Grammatyka_ (1813)
+
+
+``` 
+30001002731133Z a c h ę c o n y dobrem przyięciem G ram m aty k i llo ssy y sk iey , k tó rey drugie w y danie w ro k u 181 i nastąpiło; dla przysługi W spótzioinkóm , spieszę się z ofiarow aniem Polskiey, w tym zamiarze ,
+ażeby ona do popraw y błędnego dziś
+i ( śmiało rzec m ożna) nadto przesadzon ego, a ze zwyczaiem praw dziw ie Polskim niezgodnego pisania i m ów ienia
+sp o so b u , w czem kolw iek dopomódz
+m ogła.
+Nie miesce tu w y ty k a ć , iakie się
+W pisaniu i ustney m owie zagęściły błęd y : przez iednych um yślnie (że tak pow iem ) śpiknionych na znisczenie piękności ięzy k a, i dla zaprowadzenia, podpozorem now om odnych a dziw acznych
+w y razów , zawiłości rzeczy: przez d ru gich, z niewiadoiności p raw ideł popełniane: ale ktoby życzył u niknąć zdrożnośei; w tern sozupłem dziełku znaydzie niektóre podane sobie rady.
+Może mi kto mieć za złe i zarzucić, żem te praw id ła s cudzey w y p isał p race: nie przeczę ia te m u : bom się
+sczerze chciał w e wszystkiem stosować
+ta k do woli niegdyś za królestw a Pol1
+. ■ ■ .
+skiego byłey Kommissyi cdukacyyney,
+k tó ra w ro k u 1778 G ram inatykę przez
+JX . Onufrego Kopczyńskiego, w yznaczonego od niey do iey ułożenia, napisan ą, po roztrząśnieniu przez T ow arzystw o do xiąg elem entarnych, za dobrą
+uznaw szy, Szkołom narodow ym do użycia podała: iako też, że I m p e r a t o r s k i
+U niw ersytet W ile ń s k i, w całym sw ym
+wydziale dotąd Szkołom w szystkim
+onę uczyć zaleca. Lecz co pierw szy P isarz iey , na trzy dzieląc klassy , w e
+trzech osobnych w ydał x iążcczkacb,v
+```
+
 
 
 
